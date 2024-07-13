@@ -1,27 +1,57 @@
-# Access Arena-Stadium Management System
-     
-The project is done using java as front end and mysql-database is used as back end for data storage.
-It contains 5 modules namely -> User
-                             -> Admin
-                             -> Matches
-                             -> Booking
-                             -> Food
-There are 2 seperate logins for User and Admin. 
+# Stadium Management System
 
-The user is allowed to register or login if he has a pre existing account in user id.
-The user can also update and delete their profiles if he wish to
-After login the user can select from available matches and proceed to which categeory of seats to select,
-user can select from available seats and will be asked if he wants to proceed with payment.
-Then a ticket with all the booking details and seat number will be printed
-Then he will be asked if he wants to pre order food at the stadium.Then he can choose the food items from the
-food menu available.Finally it prints the bill for the items 
+A comprehensive Stadium Management System built using Java for the front end and MySQL for the backend. This system manages various aspects of a stadium, including user management, match scheduling, ticket booking, and food ordering.
 
+## Features
 
-Admin is allowed to login only through a default password.After logging in he can choose various operations to show 
-employee details,match details,manage stadium,manage food,check booking status of users
-In employee details admin can view details of employee details and update it and search via different opertaions
-In manage details he can add update delete matches happening in the stadium
-In manage stadium he can add the details and alter the price of each stand
-In Manage Food he can add food menu update and delete and also search via different operations
-In Booking status admin can view the users and their details who have booked their ticket
+The system is divided into five main modules:
 
+1. **User**
+2. **Admin**
+3. **Matches**
+4. **Booking**
+5. **Food**
+
+### User Module
+
+- **Registration and Login:** Users can register for a new account or log in if they already have an account.
+- **Profile Management:** Users can update and delete their profiles.
+- **Match Selection:** Users can select from available matches.
+- **Seat Selection:** Users can choose from available seats and proceed to payment.
+- **Ticket Generation:** A ticket with all booking details and seat number is generated.
+- **Food Pre-order:** Users can pre-order food items from the available menu.
+- **Bill Generation:** A final bill for the selected food items is generated.
+
+### Admin Module
+
+- **Login:** Admins can log in using a default password.
+- **Employee Management:** Admins can view, update, and search for employee details.
+- **Match Management:** Admins can add, update, and delete matches.
+- **Stadium Management:** Admins can manage stadium details and alter the price of each stand.
+- **Food Management:** Admins can manage the food menu, including adding, updating, and deleting items, and search via different operations.
+- **Booking Status:** Admins can view the booking status and user details.
+
+## Object-Oriented Programming (OOP) Concepts Used
+
+### 1. Encapsulation
+
+Encapsulation is used to keep the data safe from outside interference and misuse. In this project, data members (fields) of classes like `User`, `Admin`, `Match`, `Booking`, and `Food` are kept private, and public getter and setter methods are provided to access and update the data.
+
+### 2. Inheritance
+
+Inheritance allows one class to inherit the fields and methods of another class. In this project, `User` and `Admin` classes might inherit from a common base class `Person` to reuse the common properties like name, email, etc.
+
+### 3. Polymorphism
+
+Polymorphism allows methods to do different things based on the object it is acting upon. Method overriding is used in this project to allow subclasses like `User` and `Admin` to provide specific implementations of methods that are defined in their superclass.
+
+### 4. Abstraction
+
+Abstraction is used to hide the complex implementation details and show only the essential features of the object. Abstract classes and interfaces might be used in this project to define the structure without providing the implementation details.
+
+## Installation
+
+1. Ensure you have Java and MySQL installed on your system.
+2. Clone this repository to your local machine.
+   ```sh
+   git clone https://github.com/AneeshLokray/Access_Arena-Stadium_Management_System.git
