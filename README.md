@@ -1,6 +1,4 @@
-# Stadium_Management_System
-     Stadium management system is a project done using java. 
-Stadium Management System - Access Arena
+# Access Arena-Stadium Management System
      
 The project is done using java as front end and mysql-database is used as back end for data storage.
 It contains 5 modules namely -> User
@@ -8,7 +6,7 @@ It contains 5 modules namely -> User
                              -> Matches
                              -> Booking
                              -> Food
-There are 2 seprate logins for User and Admin. 
+There are 2 seperate logins for User and Admin. 
 
 The user is allowed to register or login if he has a pre existing account in user id.
 The user can also update and delete their profiles if he wish to
