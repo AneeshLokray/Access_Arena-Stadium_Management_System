@@ -1,4 +1,4 @@
-# Stadium Management System
+# Access Arena - Stadium Management System
 
 A comprehensive Stadium Management System built using Java for the front end and MySQL for the backend. This system manages various aspects of a stadium, including user management, match scheduling, ticket booking, and food ordering.
 
@@ -31,6 +31,24 @@ The system is divided into five main modules:
 - **Food Management:** Admins can manage the food menu, including adding, updating, and deleting items, and search via different operations.
 - **Booking Status:** Admins can view the booking status and user details.
 
+### Matches Module
+
+- Users can select from available matches.
+- Proceed to choose seat categories.
+- Confirm seat selection and proceed with payment.
+
+### Booking Module
+
+- Print ticket with booking details and seat number.
+- Option for users to pre-order food at the stadium.
+- Generate final bill for food items ordered.
+
+### Food Module
+
+- Admin can manage food menu (add, update, delete items).
+- Users can pre-order food from the available menu.
+- Print bill for food items ordered.
+
 ## Object-Oriented Programming (OOP) Concepts Used
 
 ### 1. Encapsulation
@@ -55,3 +73,14 @@ Abstraction is used to hide the complex implementation details and show only the
 2. Clone this repository to your local machine.
    ```sh
    git clone https://github.com/AneeshLokray/Access_Arena-Stadium_Management_System.git
+3. Set up the MySQL database using the provided SQL scripts in the database folder.
+4. Open the project in your preferred Java IDE.
+5. Update the database connection details in the configuration files.
+   
+### Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
+
+### Contact
+
+For any further information or support, please contact aneeshlokray007@gmail.com.
